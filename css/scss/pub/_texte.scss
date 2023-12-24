@@ -1,0 +1,47 @@
+.texte_standare{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+.texte_gran_titre{
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.texte_petit_titre{
+    width: 210px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.texte_moien_titre{
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.texte_nom_user{
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.texte_minime{
+    font-size: 12px;
+    text-align: center;
+}
+.texte_alert{
+    color: $couleur_rouge;
+}
+.texte_lien{
+    color: $couleur_verte;
+}
+
+.texte_retrait{
+    font-size: 9px;
+    font-weight: 500;
+}

@@ -1,0 +1,15 @@
+$heitght: 70px;
+.nav_bare{
+    width: 100%;
+    height: $heitght;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+    border-bottom: 1px solid rgb(117, 117, 117);
+}
+.transparant{
+    background-color: #ffffffa1;
+}

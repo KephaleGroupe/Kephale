@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+html, body{
+    height: 100%;
+}
+body{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 3rem;
+    color: $couleur_noir;
+    background-color: rgb(255, 255, 255);
+    
+}

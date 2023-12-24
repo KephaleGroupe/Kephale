@@ -1,0 +1,23 @@
+.lien_bouton{
+    background-color: #F7A429;
+    padding: 15px 25px;
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+}
+.botton_retrait{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(208, 208, 208);
+    color: $couleur_noir;
+    border-radius: 7px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alerte_supresion{
+    background-color: $couleur_rouge;
+}

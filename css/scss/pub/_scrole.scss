@@ -1,0 +1,39 @@
+.bloc_scrole_menu{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .scrole{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 100%;
+    height: 270px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    .slider{
+        padding: 4px 7px;
+        height: 30px;
+        border-radius: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 5px;
+        color: black;
+        scroll-snap-align: start;
+
+        .slider_img{
+            width: 150px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    }
+    }
+
+}
+.scrole::-webkit-scrollbar{
+    display: none;
+}

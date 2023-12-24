@@ -1,0 +1,23 @@
+.bloc_botone{
+    margin-top: 30px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bouton{
+    width: 220px;
+    height: 40px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #979797;
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.rouge{
+    background-color: #E94E1B;
+}

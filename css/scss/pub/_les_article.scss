@@ -1,0 +1,67 @@
+.bloc_les_article{
+    width: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+    .img_les_article{
+        width: 320px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 7px 7px 0px 0px;
+    }
+    .bloc_info_art{
+        width: 320px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5px;
+        .nom_articles{
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .prix_articles{
+            font-size: 15px;
+            font-weight: 400;
+            margin-bottom: 5px;
+        }
+        .description_articles{
+            text-align: center;
+            font-weight: 300;
+            width: 300px;
+            font-size: 12px;
+            padding-bottom: 10px;
+            color: rgb(86, 86, 86);
+        }
+    }
+    .bouton_passe_commande{
+        width: 320px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .ajaxLink{
+            padding: 10px 40px;
+            background-color: #95C11F;
+            color: rgb(255, 255, 255);
+            border-radius: 7px;
+
+        }
+        .rouge{
+            background-color: #E94E1B;
+        }
+        .article_valide{
+            padding: 10px 40px;
+            background-color: #F7A429;
+            color: rgb(255, 255, 255);
+            border-radius: 7px;
+        }
+    }
+}
