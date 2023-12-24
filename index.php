@@ -12,7 +12,7 @@ include_once "kephale_bdd/kephale_bdd.php";
     <link rel="stylesheet" href="css/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="manifest" href="manifest.json">
-    <title>Kephale</title>
+    <title>Kephale Groupe</title>
 </head>
 <body>
     <section class="nav_bare" >
